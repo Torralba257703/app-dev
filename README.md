@@ -22,4 +22,39 @@ My first repository
 | BOILING POINT (2022) | On the busiest night of the year at one of the hottest restaurants in London, charismatic and commanding head chef Andy Jones balances along a knife's edge as multiple personal and professional crises threaten to destroy everything he's worked for. A surprise visit from a health and safety inspector sets the staff on edge as the overbooked hot spot fills with guests.
 | Belle (2022) | Suzu is a shy, everyday high school student living in a rural village. For years, she has only been a shadow of herself. But when she enters "U", a massive virtual world, she escapes into her online persona as Belle, a gorgeous and globally-beloved singer.
 | HOTEL TRANSYLVANIA: TRANSFORMANIA (2022) | Van Helsing's mysterious new invention transforms Drac and his pals into humans, and Johnny into a monster. With their new mismatched bodies, Drac and the pack must find a way to switch themselves back before their transformations become permanent.
+### Fenced Code Block
 
+```
+{
+  "firstName": Leo",
+  "lastName": "Torralba",
+  "age": 25
+}
+```
+```
+{
+  import java.util.ArrayList;
+
+class Main {
+  public static void main(String[] args) {
+
+    // creating an array list
+    ArrayList<String> movie = new ArrayList<>();
+    movie.add("1");
+    movie.add("2");
+    movie.add("3");
+    movie.add("4");
+    movie.add("5");
+    System.out.println("ArrayList: " + movie);
+
+    // iterate using for-each loop
+    System.out.println(" Accessing individual movie list:  ");
+
+    for (String language : movie) {
+      System.out.print(language);
+      System.out.print(", ");
+    }
+  }
+}
+}
+```
